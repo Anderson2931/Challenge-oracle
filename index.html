@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="diseño.css">
+    <script type="text/javascript" src="javas.js"></script>
+    <title>Challengue oracle</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+        
+            <img class= "logoimg" src="/Imagenes/logo_pagina.png">
+            <h1 class="title">Encriptador de mensajes</h1>
+
+        </div>
+
+        <div class="left">
+
+        <input class="T-input"  id="inputTexto" type="text" placeholder="Ingrese el texto aqui" >
+
+        </div>
+
+        <div class="right">
+
+            <img src="Imagenes/Muñeco_plantilla.png" id="imgDer">
+            <h1 id="texto">Ningun mensaje fue encontrado <br> </h1>     
+            <textarea name="name" id="texto2" cols="80" rows="8"></textarea>
+            <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+
+        </div>
+
+        <div class="left-button">
+            
+            <p class="textomin"> ⚠ Solo letras minúsculas y sin acentos</p>
+            <button type="button" id="btn-encripta" onclick="encriptar()">Encripto</button>
+            <button type="button" id="btn-desencripta" onclick="desencriptrar()">Desencripto</button>       
+
+        </div>
+    </div>
+</body>
+</html>
